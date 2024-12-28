@@ -11,8 +11,9 @@ fn main() {
     println!("Guess a number, go ahead!\nMake your guess!");
 
     // Opt-in mutability
-    // Javascript-esque variable declaration: let/const(?)
+    // Javascript-esque variable declaration: let/const
     let mut guess = String::new(); // Unicode dynamically sized string
+    const PI: f32 = 3.14159; // WE WANT CONSTS IN ALL-CAPS
 
     // User console input with built-in error checking
     io::stdin()
